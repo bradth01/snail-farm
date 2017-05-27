@@ -1,9 +1,17 @@
 const http = require('http');
+const fs = require('fs');
 const port = 4200;
 
-const server = http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('snail time');
+const server = http.createServer(function (request, response) {
+    fs.readFile('./index.html', function(error, content) {
+        if (error) {
+            response.writeHead(500);
+            response.end();
+        } else {
+            response.writeHead(200);
+            response.end(content);
+        }
+    });
 });
 
 server.listen(port, (function () {
