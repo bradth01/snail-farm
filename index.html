@@ -2,20 +2,109 @@
 <head>
     <title>s n a i l f a r m</title>
     <style>
+        body {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
         a {
             font-family: monospace;
             color: blue;
         }
+        #leftColumn {
+            width: 17vh;
+            margin-left: 10px;
+        }
+        #rightColumn {
+            width: 17vh;
+        }
+        #middleColumn {
+            width: 66vh;
+        }
         #logo {
-            transform: rotate(45deg);
-            margin-left: 6px;
-            height: 169px;
-            width: 169px;
+            transform: rotate(54deg);
+            margin-top: 80px;
+            margin-left: 22px;
+            margin-right: 34px;
+            max-width: 65%;
+            max-height: 65%;
+        }
+        #divider {
+            height: 7vh;
+        }
+        .midHigh {
+            margin-top: 50px;
+        }
+        .middle {
+            margin-top: 98px;
+        }
+        .midLow {
+            margin-top: 149px;
+        }
+        .low {
+            margin-top: 290px;
+        }
+        .lower {
+            margin-top: 432px;
+        }
+        .product {
+            background-color: darkgrey;
+            height: 160px;
+            width: 120px;
+            margin-bottom: 50px;
+            margin-right: 17px;
+        }
+        .productRow {
+            margin-top: 44px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 25vh;
         }
     </style>
 </head>
 <body>
+<div id="leftColumn">
     <img id="logo" src="sflgo.jpg" />
-    <a href="testProduct.html">PRODUCT</a>
+    <div class="product lower">
+        <a href="testProduct.html">PRODUCT</a>
+    </div>
+</div>
+<div id="middleColumn">
+    <div class="productRow">
+        <div class="product high">
+            <a href="testProduct.html">PRODUCT</a>
+        </div>
+        <div class="product midHigh">
+            <a href="testProduct.html">PRODUCT</a>
+        </div>
+        <div class="product middle">
+            <a href="testProduct.html">PRODUCT</a>
+        </div>
+        <div class="product midLow">
+            <a href="testProduct.html">PRODUCT</a>
+        </div>
+    </div>
+    <div id="divider"></div>
+    <div class="productRow">
+        <div class="product midLow">
+            <a href="testProduct.html">PRODUCT</a>
+        </div>
+        <div class="product middle">
+            <a href="testProduct.html">PRODUCT</a>
+        </div>
+        <div class="product midHigh">
+            <a href="testProduct.html">PRODUCT</a>
+        </div>
+        <div class="product high">
+            <a href="testProduct.html">PRODUCT</a>
+        </div>
+    </div>
+</div>
+<div id="rightColumn">
+    <div class="product low">
+        <a href="testProduct.html">PRODUCT</a>
+    </div>
 </body>
 </html>
+
