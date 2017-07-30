@@ -33,12 +33,14 @@
         #product {
             width: 60vw;
             max-width: 100%;
+            display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
         }
-        #info {
-            flex-direction: row;
-            align-items: center;
+        #pic {
+            max-width: 69%;
+            object-fit: contain;
         }
         #buy {
             height: 220px;
@@ -46,6 +48,12 @@
         }
         #spacer {
             width: 15vw;
+        }
+        #blurbBuy {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 
@@ -62,9 +70,10 @@
         <div id="product">
             <img id="pic" src="https://d8a8qkbr68bun.cloudfront.net/waly_front_photo.jpg" />
             <p class="title">LINGERING YOUTH</p>
-            <p>By Waly</p>
-            <div id="info">
+            <div id="blurbBuy">
                 <p>
+                    By Wally<br>
+                    <br>
                     28 pages<br>
                     red and blue color Risograph<br>
                     Published in 2017<br>
