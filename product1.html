@@ -2,16 +2,28 @@
 
 <head>
     <title>s n a i l f a r m</title>
+    // todo replace with real values
+    <script src="http://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js" defer="defer">
+        var shopClient = ShopifyBuy.buildClient({
+            accessToken: 'a7d7c34d7e531268037a004428ba7c93',
+            domain: 'snailfarm.myshopify.com',
+            appId: '6'
+        });
+
+        shopClient.fetchProduct('8569911558')
+        .then(function (product) {
+            console.log(product);
+        })
+        .catch(function () {
+            console.log('Request failed');
+        });
+    </script>
 
     <style>
         p {
             font-family: monospace;
             color: blue;
-            font-size: x-large;
-        }
-        img {
-            width: 100%;
-            object-fit: contain;
+            font-size: 17px;
         }
         .title {
             font-size: xx-large;
@@ -26,9 +38,8 @@
         }
         #logo {
             transform: rotate(45deg);
-            margin-left: 0px;
             object-fit: contain;
-            max-width: 50%;
+            max-width: 100%;
         }
         #product {
             width: 60vw;
@@ -39,7 +50,7 @@
             justify-content: center;
         }
         #pic {
-            max-width: 69%;
+            max-width: 50%;
             object-fit: contain;
         }
         #buy {
