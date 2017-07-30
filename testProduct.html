@@ -1,5 +1,12 @@
 <html>
 <head>
+    <script src="http://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js" defer="defer">
+        var shopClient = ShopifyBuy.buildClient({
+            accessToken: 'a7d7c34d7e531268037a004428ba7c93',
+            domain: 'snailfarm.myshopify.com',
+            appId: '6'
+        });
+    </script>
     <title>s n a i l f a r m</title>
     <style>
         body {
@@ -26,8 +33,8 @@
 </head>
 <body>
     <a href="index.html">
-        <img id="logo" src="sflgo.jpg" height="169" width="169" />
+        <img id="logo" src="https://d8a8qkbr68bun.cloudfront.net/sflgo.jpg" height="169" width="169" />
     </a>
-    <img id="buy" src="buyButton.jpg" />
+    <img id="buy" src="https://d8a8qkbr68bun.cloudfront.net/buyButton.jpg" />
 </body>
 </html>

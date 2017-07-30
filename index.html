@@ -7,19 +7,19 @@
             flex-direction: row;
             justify-content: center;
         }
-        a {
-            font-family: monospace;
-            color: blue;
+        img {
+            width: 100%;
+            object-fit: contain;
         }
         #leftColumn {
-            width: 17vh;
+            width: 15vw;
             margin-left: 10px;
         }
         #rightColumn {
-            width: 17vh;
+            width: 15vw;
         }
         #middleColumn {
-            width: 66vh;
+            width: 65vw;
         }
         #logo {
             transform: rotate(54deg);
@@ -29,7 +29,7 @@
             max-width: 65%;
             max-height: 65%;
         }
-        #divider {
+        .divider {
             height: 7vh;
         }
         .midHigh {
@@ -42,69 +42,119 @@
             margin-top: 149px;
         }
         .low {
-            margin-top: 290px;
+            margin-top: 50vh;
+        }
+        .lowish {
+            margin-top: 60vh;
         }
         .lower {
-            margin-top: 432px;
+            margin-top: 80vh;
         }
         .product {
-            background-color: darkgrey;
-            height: 160px;
-            width: 120px;
+            height: auto;
+            width: auto;
             margin-bottom: 50px;
             margin-right: 17px;
         }
         .productRow {
-            margin-top: 44px;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            height: 25vh;
+            height: 50vh;
         }
     </style>
 </head>
 <body>
 <div id="leftColumn">
-    <img id="logo" src="sflgo.jpg" />
+    <img id="logo" src="https://d8a8qkbr68bun.cloudfront.net/sflgo.jpg" />
     <div class="product lower">
-        <a href="testProduct.html">PRODUCT</a>
+        <a href="testProduct.html">
+            <img src="https://d8a8qkbr68bun.cloudfront.net/me_front.png" />
+        </a>
     </div>
 </div>
 <div id="middleColumn">
     <div class="productRow">
         <div class="product high">
-            <a href="testProduct.html">PRODUCT</a>
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/13_adventures.jpg" />
+            </a>
         </div>
         <div class="product midHigh">
-            <a href="testProduct.html">PRODUCT</a>
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/3_tails_front.jpg" />
+            </a>
         </div>
         <div class="product middle">
-            <a href="testProduct.html">PRODUCT</a>
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/amam_front.jpg" />
+            </a>
         </div>
         <div class="product midLow">
-            <a href="testProduct.html">PRODUCT</a>
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/aneko_front.jpg" />
+            </a>
         </div>
     </div>
-    <div id="divider"></div>
+    <div class="divider"></div>
     <div class="productRow">
         <div class="product midLow">
-            <a href="testProduct.html">PRODUCT</a>
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/depor_front.jpg" />
+            </a>
         </div>
         <div class="product middle">
-            <a href="testProduct.html">PRODUCT</a>
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/ed_cheverton_front.jpg" />
+            </a>
         </div>
         <div class="product midHigh">
-            <a href="testProduct.html">PRODUCT</a>
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/eddie_front.jpg" />
+            </a>
         </div>
         <div class="product high">
-            <a href="testProduct.html">PRODUCT</a>
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/hell_tower_scan.jpg" />
+            </a>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="productRow">
+        <div class="product high">
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/sluto_front.jpg" />
+            </a>
+        </div>
+        <div class="product midHigh">
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/mike_front.jpg" />
+            </a>
+        </div>
+        <div class="product middle">
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/mosa_front.jpg" />
+            </a>
+        </div>
+        <div class="product midLow">
+            <a href="testProduct.html">
+                <img src="https://d8a8qkbr68bun.cloudfront.net/ob_front.jpg" />
+            </a>
         </div>
     </div>
 </div>
 <div id="rightColumn">
     <div class="product low">
-        <a href="testProduct.html">PRODUCT</a>
+        <a href="testProduct.html">
+            <img src="https://d8a8qkbr68bun.cloudfront.net/matt_bivetto_front.jpg" />
+        </a>
     </div>
+    <div class="product lowish">
+        <a href="testProduct.html">
+            <img src="https://d8a8qkbr68bun.cloudfront.net/waly_front_photo.jpg" />
+        </a>
+    </div>
+</div>
 </body>
 </html>
 
