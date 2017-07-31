@@ -2,17 +2,21 @@
 
 <head>
     <title>s n a i l f a r m</title>
-    // todo replace with real values
-    <script src="http://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js" defer="defer">
+    <script src="http://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js" async="async">
         var shopClient = ShopifyBuy.buildClient({
             accessToken: 'a7d7c34d7e531268037a004428ba7c93',
             domain: 'snailfarm.myshopify.com',
             appId: '6'
         });
 
-        shopClient.fetchProduct('8569911558')
+        shopClient.fetchProduct('10109832073')
         .then(function (product) {
-            console.log(product);
+            console.log('product');
+            var variant = product.variants[0];
+            var quantity = 1;
+            var checkoutURL = variant.checkoutUrl(quantity);
+            var button = document.getElementById('buyContainer');
+            button.href = checkoutURL;
         })
         .catch(function () {
             console.log('Request failed');
@@ -90,7 +94,9 @@
                     Published in 2017<br>
                     Edition of 100
                 </p>
-                <img id="buy" src="https://d8a8qkbr68bun.cloudfront.net/buyButton.jpg" />
+                <a id="buyContainer">
+                    <img id="buy" src="https://d8a8qkbr68bun.cloudfront.net/buyButton.jpg" />
+                </a>
             </div>
         </div>
 
