@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f4b70d-883a-4e41-92f1-3a91d0f5b835" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product1.html" afterPath="$PROJECT_DIR$/product1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product2.html" afterPath="$PROJECT_DIR$/product2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product3.html" afterPath="$PROJECT_DIR$/product3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product4.html" afterPath="$PROJECT_DIR$/product4.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +20,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
@@ -32,8 +35,8 @@
       <file leaf-file-name="product1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            <state relative-caret-position="612">
+              <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -42,8 +45,8 @@
       <file leaf-file-name="product2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="252">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -52,8 +55,8 @@
       <file leaf-file-name="product3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -62,8 +65,8 @@
       <file leaf-file-name="product4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+            <state relative-caret-position="252">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -72,8 +75,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="48" column="22" lean-forward="false" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="601">
+              <caret line="155" column="12" lean-forward="false" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -93,21 +96,29 @@
         <option value="$PROJECT_DIR$/images.js" />
         <option value="$PROJECT_DIR$/testProduct.html" />
         <option value="$PROJECT_DIR$/product1.html" />
-        <option value="$PROJECT_DIR$/product3.html" />
-        <option value="$PROJECT_DIR$/product4.html" />
         <option value="$PROJECT_DIR$/product2.html" />
+        <option value="$PROJECT_DIR$/product4.html" />
+        <option value="$PROJECT_DIR$/product3.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="2179" />
+    <option name="y" value="-93" />
     <option name="width" value="1920" />
     <option name="height" value="1173" />
   </component>
@@ -126,22 +137,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snailfarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snailfarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="snailfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snailfarm" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,6 +180,14 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
       <node-interpreter value="project" />
       <working-dir value="" />
@@ -189,15 +205,6 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -225,7 +232,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
+    <frame x="2179" y="-93" width="1920" height="1173" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -247,380 +254,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/linkYourInvestmentAccountCard.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/linkYourInvestmentAccountCard.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/costcoCard.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/costcoCard.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/workAtMoneyLionCard.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/workAtMoneyLionCard.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/wtsTargetCard.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/wtsTargetCard.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/friendInviteCard.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/friendInviteCard.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/whatsMyCreditScoreCard.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/whatsMyCreditScoreCard.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/whatsMyCreditScoreBadCard.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/whatsMyCreditScoreBadCard.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/AARPCard.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/AARPCard.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/whyIsCreditScoreImportantBlogCard.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/whyIsCreditScoreImportantBlogCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/styles/formStyles.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/styles/textStyles.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/styles/controlStyles.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/styles/layoutStyles.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/styles/modalStyles.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/styles/colors.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/styles/navigationStyles.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/styles/listStyles.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/styles/cardStyles.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/components/Button.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/endorsementSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/permissionsSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/financesSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/codepushSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/pushNotificationSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/instantOfferSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/propertySagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/authSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/touchIdSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/userSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/connection.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/combineLatest.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/dlScanSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/cardSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/payoffSaga.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/cmSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/bvSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/analyticsSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/registrationSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/productsSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/creditUpdateSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/startupSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/socialSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/selectors.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/mobileVerification.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/onboardingSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/contactInfoSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/daemon/index.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/loanAppSagas/index.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/loanAppSagas/helpers.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/loanAppSagas/loanAppInfo.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/loanAppSagas/states.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/mockModules/react-native-branch.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/mockModules/react-native-fabric.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/mockModules/react-native-device-info.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/auth.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/preferences.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/user.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/cards.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/error.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/vehicle.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/instantOfferModule.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/connection.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/loading.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/actions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/nav.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/products.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/creditUpdate.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/finances.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/modal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/institutions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/network.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/creditMonitoring.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/loan.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/router.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/social.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/currencyConverter.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/invitedContacts.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/networkMap.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/sidemenu.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/appState.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/version.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/variables.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/index.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/strings.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/cardCTAHandlerUtil.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/states.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/user.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/transunion.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/MLAnalytics.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/chartTheme.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/loan.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/cardGrammarUtil.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/dateUtil.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/logger.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/cardQuotes.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/Bugsnag.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/emptyRequestCards.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/helpshift.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/BankUtil.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/constants.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/products.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/endorsements.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/debug.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/routes.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/branch.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/createStore.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/banks.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/api.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/categories.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/google.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/touchId.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/index.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/productsActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/codepushActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/bvActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/instantOfferActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/socialActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/userActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/creditUpdateActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/appActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/creditMonitoringActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/propertyActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/onboardingActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/financesActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/authActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/loanAppActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/dlScanActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/actions/touchIdActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/index.ios.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/index.android.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/config.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/styles.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/WaysToSaveCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Gauge.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/FinanceContainer.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/SearchBar.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CardCarousel.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/TabBar.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLTipText.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/LoansHeader.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLGrammar.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Credits.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/ListPicker.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Card.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PaymentHistory.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/AnimatedGauge.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CodeShare.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PointsHistory.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLPicker.android.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Rewards.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Confetti.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Splash.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/ListViewHeader.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CreditEmpty.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/ForgotPasswordModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CreditMonitoringInfo.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLIcon.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/OnboardingCarousel.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLPicker.ios.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/SSNInput.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/SurveyCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/QuickView.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/TransactionListCta.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/InviteFriendsSoftPrompt.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CreditCardInformation.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/ListViewRow.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/LoanProgressBar.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/SwipeableButton.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PaymentIcon.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CreditMonitoringAlerts.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/StreakCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLWebView.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLPicker2.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/TransitionView.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/ProgressiveImage.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLSegmentedControls.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/BoostButton.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CreditHistory.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLPicker.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/OnboardingCards.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/InputAccessoryButton.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/TransactionList.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Debug.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CreditCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLTextInput.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/ProviderView.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/SearchableList.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PhoneInput.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Screen.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CheckBox.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CreditScoreGauge.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Contacts.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLValidatedInput.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/NetworkFailure.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/InviteThanksPopup.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/EmptyScreen.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/NumberCircle.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/EmptyRequestCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/GoogleMapSearch.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLRadioButtons.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLText.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CreditMonitoringHeader.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CurrencyInput.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MinimalNavbar.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Router.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/DateInput.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/InputAccessory.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/BankConnectModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/TabViewDots.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CreditSimulator.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/AcceptedFriendModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/BoostModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/NetworkSuggestionsCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/Button.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLNewSegmentedControls.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/ThinFile.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CameraButtonBar.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PaymentChart.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/BigCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CheckMarkButtons.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/QuoteCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/FinancesEmpty.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/OnboardingInvited.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/YourNetworkRequests.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppScheduleCall.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/BVStats.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/NetworkSuggestionsSlider.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanOfferModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppConfirmWithdrawal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppAgreement.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanList.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/FindFriendsSoftPrompt.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CreditCardsCategory.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/ProfilePage.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/InstantLoanOffer.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Onboarding.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/GetPoints.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifyAddress.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/BoostFriendsList.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/AddDebitCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CreditMonitoringContainer.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppDenied.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifyToken.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/AddVehicle.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CreditMonitoringDashboard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/DatePickerMenu.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/NewFinances.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifyIncomeType.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/InstantLoanSSN.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Settings.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/AddAssetModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/MenuButton.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/ActionTrigger.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/DynamicBoostView.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/GroupedInstitutions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/InstantOfferCreateAccount.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CreditMonitoringAuthentication.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/ForgotPassword.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/NetworkUser.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifyMobile.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/IdAndSelfieCameraScreen.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/SoftPrompt.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CameraScreen.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/RewardDetail.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/IdentityVerification.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/NavBar.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/EmploymentInfo.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/AdverseActions.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/OtherNetwork.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/BankVerification.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/App.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppBankInfo.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/DepositBankList.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/ContactInfoConfirm.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppMLPaymentMethod.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Signup.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Payoff.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/NavButton.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/SelectInstitution.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Menu.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CreditCardDetail.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppSetAmount.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/EditProfile.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/FriendAcceptPopup.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppSuccess.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppPromoCode.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifyPhone.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Action.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Home.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Loan.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifyDateOfBirth.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppWithdrawn.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CreditCardAllReviews.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifyAnnualIncome.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CMAction.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/EmploymentSummary.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/SignupName.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LLLoanAmount.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/WithdrawalBankList.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/NewContactListInvite.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CardFeedbackModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Root.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CommunityAndInvites.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/InstantLoanModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/BoostSlider.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/RewardsContainer.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CreditCards.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppRequestAmount.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/WelcomeBankVerification.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/BalanceChart.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/mlApp.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifySSN.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/ReviewCreditCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/AccountView.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/RedeemDeniedModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/ScanPreview.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/About.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/SecurityModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppReasons.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/AuthenticationFailed.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppPaymentSchedule.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Alerts.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoginForm.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PaymentScheduleScreen.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/ProviderList.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppESign.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifyHousing.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/AddProperty.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/TouchIDConfirmation.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Login.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/lib/dateUtil.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/lib/cardCTAUtil.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/lib/bankUtil.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/lib/stringUtil.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/lib/cardGrammarUtil.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/lib/userUtil.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/lib/emptyRequestCards.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/sagas/loanAppSagas.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/modules/productsModule.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/modules/connectionModule.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/modules/appStateModule.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/modules/currencyConverterModule.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/modules/loadingModule.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/modules/bvFixture.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/modules/authModule.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/modules/financesModule.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/modules/loanModule.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/containers/NetworkUser.spec.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/safewayGasRewardsCard.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/safewayGasRewardsCard.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/financialLitTeenCardTwo.js.map" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/financialLitTeenCardTwo.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/financialLitTeenCardThree.js" />
-        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/financialLitTeenCardThree.js.map" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/BoostCTAModal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLListViewPicker.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/modules/userModule.spec.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/mockModules/bugsnag-react-native.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/mockModules/react-native-progress.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/__tests__/mockModules/react-native-camera.js" />
-      </list>
-    </option>
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -922,6 +556,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testProduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -930,50 +571,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testProduct.html">
+    <entry file="file://$PROJECT_DIR$/product1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="612">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        <state relative-caret-position="252">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="252">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product1.html">
+    <entry file="file://$PROJECT_DIR$/product3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        <state relative-caret-position="252">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="48" column="22" lean-forward="false" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="601">
+          <caret line="155" column="12" lean-forward="false" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="12" />
           <folding />
         </state>
       </provider>
