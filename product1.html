@@ -59,8 +59,12 @@
             align-items: center;
             justify-content: center;
         }
-        #pic {
+        .pic {
             max-width: 50%;
+            object-fit: contain;
+        }
+        .pic-wide {
+            max-width: 75%;
             object-fit: contain;
         }
         #buy {
@@ -103,7 +107,7 @@
         </a>
 
         <div id="product">
-            <img id="pic" src="https://d8a8qkbr68bun.cloudfront.net/waly_front_photo.jpg" />
+            <img class="pic" src="https://d8a8qkbr68bun.cloudfront.net/waly_front_photo.jpg" />
             <p class="title">LINGERING YOUTH</p>
             <div id="blurbBuy">
                 <p>
@@ -118,6 +122,8 @@
                     <img id="buy" src="https://d8a8qkbr68bun.cloudfront.net/buyButton.jpg" />
                 </a>
             </div>
+            <img class="pic-wide" src="https://s3.us-east-2.amazonaws.com/snailfarm/insides/waly+inside+photo.jpg" />
+            <img class="pic" src="https://s3.us-east-2.amazonaws.com/snailfarm/insides/waly+back+photo.jpg" />
         </div>
 
         <div id="spacer"></div>

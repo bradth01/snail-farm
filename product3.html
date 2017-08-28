@@ -39,8 +39,12 @@
             align-items: center;
             justify-content: center;
         }
-        #pic {
+        .pic {
             max-width: 50%;
+            object-fit: contain;
+        }
+        .pic-wide {
+            max-width: 75%;
             object-fit: contain;
         }
         #buy {
@@ -83,7 +87,7 @@
     </a>
 
     <div id="product">
-        <img id="pic" src="https://d8a8qkbr68bun.cloudfront.net/depor_front.jpg" />
+        <img class="pic" src="https://d8a8qkbr68bun.cloudfront.net/depor_front.jpg" />
         <p class="title">WORRIES</p>
         <div id="blurbBuy">
             <p>
@@ -99,6 +103,8 @@
                 <img id="buy" src="https://d8a8qkbr68bun.cloudfront.net/buyButton.jpg" />
             </a>
         </div>
+        <img class="pic-wide" src="https://d8a8qkbr68bun.cloudfront.net/insides/depor+inside.jpg" />
+        <img class="pic" src="https://d8a8qkbr68bun.cloudfront.net/insides/depor+back.jpg" />
     </div>
 
     <div id="spacer"></div>
