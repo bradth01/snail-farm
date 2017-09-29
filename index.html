@@ -1,5 +1,6 @@
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>s n a i l f a r m</title>
     <style>
         body {
@@ -69,13 +70,13 @@
             position: absolute;
             top: 23%;
         }
-        .lowest {
-            position: absolute;
-            top: 82%;
-        }
         .lower {
             position: absolute;
             top: 52%
+        }
+        .lowest {
+            position: absolute;
+            top: 82%;
         }
         .product {
             height: auto;
@@ -89,6 +90,20 @@
             justify-content: space-around;
             max-width: 100%;
             object-fit: contain;
+        }
+        @media (max-width: 500px) {
+            .low {
+                position: absolute;
+                top: 26%;
+            }
+            .lower {
+                position: absolute;
+                top: 60%;
+            }
+            .lowest {
+                position: absolute;
+                top: 93%;
+            }
         }
     </style>
 </head>
