@@ -16,7 +16,7 @@
         }
         img {
             width: 100%;
-            object-fit: contain;
+            object-fit: cover;
             z-index: -1;
         }
         #leftColumn {
@@ -34,9 +34,10 @@
         #logo {
             transform: rotate(45deg);
             object-fit: contain;
-            max-width: 20%;
+            max-width: 15%;
             position: fixed;
             left: -4px;
+            z-index: 1;
         }
         #float {
             font-family: monospace;
@@ -74,10 +75,10 @@
             position: absolute;
             top: 52%
         }
-        .lowest {
-            position: absolute;
-            top: 82%;
-        }
+        /*.lowest {*/
+            /*position: absolute;*/
+            /*top: 82%;*/
+        /*}*/
         .product {
             height: auto;
             width: auto;
@@ -100,16 +101,16 @@
                 position: absolute;
                 top: 60%;
             }
-            .lowest {
-                position: absolute;
-                top: 93%;
-            }
+            /*.lowest {*/
+                /*position: absolute;*/
+                /*top: 93%;*/
+            /*}*/
         }
     </style>
 </head>
 <body>
 <div id="leftColumn">
-    <img id="logo" src="https://d8a8qkbr68bun.cloudfront.net/sflgo.jpg" />
+    <img id="logo" src="https://d8a8qkbr68bun.cloudfront.net/sf_logo_web_transparrant.png" />
     <div class="product lower">
         <a href="product10.html">
             <img src="https://d8a8qkbr68bun.cloudfront.net/eddie_front.jpg" />
@@ -181,7 +182,7 @@
         </div>
         <div class="product midLow">
             <a href="product14.html">
-                <img src="https://d8a8qkbr68bun.cloudfront.net/ob_front.jpg" />
+                <img src="https://d8a8qkbr68bun.cloudfront.net/insides/jshirt1.jpg" />
             </a>
         </div>
     </div>
@@ -190,11 +191,6 @@
     <div class="product low">
         <a href="product5.html">
             <img src="https://d8a8qkbr68bun.cloudfront.net/3_tails_front.jpg" />
-        </a>
-    </div>
-    <div class="product lowest">
-        <a href="product15.html">
-            <img src="https://d8a8qkbr68bun.cloudfront.net/amam_front.jpg" />
         </a>
     </div>
 </div>

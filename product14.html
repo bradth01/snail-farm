@@ -14,12 +14,21 @@
     </a>
 
     <div id="product">
-        <img class="pic" src="https://d8a8qkbr68bun.cloudfront.net/ob_front.jpg" />
+        <img class="pic" src="https://d8a8qkbr68bun.cloudfront.net/insides/jshirt1.jpg" />
+        <p class="title">THE TV COLORED SKY</p>
         <div id="blurbBuy">
-            <p>coming soon</p>
+            <p>
+                BY JACKSON EPSTEIN<br>
+                <br>
+                SOLD OUT<br>
+                Hand printed<br>
+                Inspired by Neuromancer<br>
+            </p>
+            <a id="buyContainer">
+                <img id="buy" src="https://d8a8qkbr68bun.cloudfront.net/buyButton.jpg" />
+            </a>
         </div>
-        <img class="pic-wide" src="https://s3.us-east-2.amazonaws.com/snailfarm/insides/ob+inside.jpg" />
-        <img class="pic" src="https://s3.us-east-2.amazonaws.com/snailfarm/insides/ob+back.jpg" />
+        <img class="pic" src="https://s3.us-east-2.amazonaws.com/snailfarm/insides/jshirt2.jpg" />
     </div>
 
     <div id="spacer"></div>
@@ -30,6 +39,29 @@
     <a href="https://www.instagram.com/snail.farm/">instagram // </a>
     <a>2017</a>
 </div>
+
+<script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
+<script>
+    const shopClient = ShopifyBuy.buildClient({
+        accessToken: 'a7d7c34d7e531268037a004428ba7c93',
+        domain: 'snailfarm.myshopify.com',
+        appId: '6'
+    });
+
+    shopClient.fetchProduct('10392791433')
+        .then(function (product) {
+            const variant = product.variants[0];
+            const quantity = 1;
+            const checkoutURL = variant.checkoutUrl(quantity);
+            var button = document.getElementById('buyContainer');
+            button.href = checkoutURL;
+        })
+        .catch(function () {
+            console.log('Request failed');
+        });
+</script>
+
 </body>
 
 </html>
+
