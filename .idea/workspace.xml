@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f4b70d-883a-4e41-92f1-3a91d0f5b835" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product1.html" afterPath="$PROJECT_DIR$/product1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product14.html" afterPath="$PROJECT_DIR$/product14.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +39,8 @@
       <file leaf-file-name="product1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="535">
+              <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -157,8 +154,8 @@
         <option value="$PROJECT_DIR$/shopClient.js" />
         <option value="$PROJECT_DIR$/productStyles.css" />
         <option value="$PROJECT_DIR$/product14.html" />
-        <option value="$PROJECT_DIR$/product1.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/product1.html" />
       </list>
     </option>
   </component>
@@ -1038,8 +1035,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="535">
+          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
           <folding />
         </state>
       </provider>
