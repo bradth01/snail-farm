@@ -29,7 +29,7 @@
                     Published in 2017<br>
                     Edition of 100
                 </p>
-                <a id="buyContainer" onclick="true">
+                <a id="buyContainer" onclick="addToCart()">
                     <img id="buy" src="https://d8a8qkbr68bun.cloudfront.net/buyButton.jpg" />
                 </a>
             </div>
@@ -45,30 +45,65 @@
         <a href="https://www.instagram.com/snail.farm/">instagram // </a>
         <a>2017</a>
     </div>
+    <div id="cartFloat">
+        <a>${cartNumber}</a>
+    </div>
 
     <script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
     <script>
+
         const shopClient = ShopifyBuy.buildClient({
             accessToken: 'a7d7c34d7e531268037a004428ba7c93',
             domain: 'snailfarm.myshopify.com',
             appId: '6'
         });
 
-//        const cart = shopClient.fetchRecentCart().then(function(cart) {
-//            cart
-//        });
 
-        shopClient.fetchProduct('10378973769')
-            .then(function (product) {
-                const variant = product.variants[0];
-                const quantity = 1;
-                const checkoutURL = variant.checkoutUrl(quantity);
-                var button = document.getElementById('buyContainer');
-                button.href = checkoutURL;
+        var cart;
+        var product;
+        var cartNumber;
+
+        shopClient.fetchRecentCart()
+            .then(function(recentCart) {
+                cart = recentCart;
+                //todo: function to get total number in cart in this console.log
+
+                console.log(recentCart.attrs.line_items.reduce(function(result, item) {
+                    return result += item.quantity;
+                }, 0));
+
+                // todo: how to interpolate this into the html
+               cartNumber = recentCart.attrs.line_items.reduce(function(result, item) {
+                    return result += item.quantity;
+                }, 0);
             })
             .catch(function () {
-                console.log('Request failed');
+                console.log('cart fetch failed');
             });
+
+        shopClient.fetchProduct('10378973769')
+            .then(function (fetchedProduct) {
+                const variant = fetchedProduct.variants[0];
+                const quantity = 1;
+                product = { variant: variant, quantity: quantity };
+            })
+            .catch(function () {
+                console.log('product fetch failed');
+            });
+
+        console.log('cart', cart)
+        console.log('product', product);
+
+        function addToCart() {
+            cart.createLineItemsFromVariants(product)
+                .then(function(cart) {
+                    console.log('cart', cart);
+                })
+                .catch(function() {
+                    console.log('onclick failed');
+                });
+        }
+
     </script>
 
 </body>
