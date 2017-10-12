@@ -3,6 +3,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>s n a i l f a r m</title>
     <style>
+        #cartFloat {
+            font-family: monospace;
+            font-size: 20px;
+            color: blue;
+            position: fixed;
+            top: 10px;
+            right: 5px;
+            width: 50px;
+            height: 50px;
+        }
         body {
             display: flex;
             flex-direction: row;
@@ -200,6 +210,46 @@
     <a href="https://www.instagram.com/snail.farm/">instagram // </a>
     <a>2017</a>
 </div>
+<div id="cartFloat">
+</div>
+
+<script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
+
+<script>
+
+    const shopClient = ShopifyBuy.buildClient({
+        accessToken: 'a7d7c34d7e531268037a004428ba7c93',
+        domain: 'snailfarm.myshopify.com',
+        appId: '6'
+    });
+
+    shopClient.fetchRecentCart()
+        .then(function(recentCart) {
+
+            console.log(recentCart.attrs.line_items.reduce(function(result, item) {
+                return result += item.quantity;
+            }, 0));
+
+            // todo: how to interpolate this into the html
+            const cartNumber = recentCart.attrs.line_items.reduce(function(result, item) {
+                return result += item.quantity;
+            }, 0);
+
+            const newA = document.createElement("a");
+            const newContent = document.createTextNode(cartNumber.toString());
+            newA.appendChild(newContent);
+
+            const currentDiv = document.getElementById("cartFloat");
+            document.body.insertBefore(newA, currentDiv);
+
+        })
+        .catch(function () {
+            console.log('cart fetch failed');
+        });
+
+
+</script>
+
 </body>
 </html>
 

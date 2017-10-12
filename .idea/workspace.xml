@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="02f4b70d-883a-4e41-92f1-3a91d0f5b835" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product1.html" afterPath="$PROJECT_DIR$/product1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productStyles.css" afterPath="$PROJECT_DIR$/productStyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,108 +16,126 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product14.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product14.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/product1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="905">
-              <caret line="91" column="15" lean-forward="true" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productStyles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/productStyles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="78" column="17" lean-forward="false" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product9.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product9.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product13.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product13.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product7.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product7.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product12.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product12.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product8.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product8.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="978">
+                  <caret line="242" column="57" lean-forward="false" selection-start-line="242" selection-start-column="57" selection-end-line="242" selection-end-column="57" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product14.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/product14.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product1.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/product1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="66" column="39" lean-forward="false" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="productStyles.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/productStyles.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="924">
+                  <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product9.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/product9.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="882">
+                  <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product13.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/product13.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product7.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/product7.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="774">
+                  <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product12.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/product12.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="864">
+                  <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product8.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/product8.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="846">
+                  <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="product1.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/product1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="841">
+                  <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -156,9 +173,9 @@
         <option value="$PROJECT_DIR$/product9.html" />
         <option value="$PROJECT_DIR$/shopClient.js" />
         <option value="$PROJECT_DIR$/product14.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/productStyles.css" />
         <option value="$PROJECT_DIR$/product1.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -176,16 +193,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1205" />
-    <option name="y" value="510" />
-    <option name="width" value="1775" />
-    <option name="height" value="1117" />
+    <option name="x" value="56" />
+    <option name="y" value="311" />
+    <option name="width" value="2329" />
+    <option name="height" value="1333" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -198,31 +215,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="snailfarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snailfarm" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="snailfarm" type="cbb8eebc:String" user="snailfarm" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -304,7 +297,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1205" y="510" width="1775" height="1117" extended-state="0" />
+    <frame x="56" y="311" width="2329" height="1333" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18140845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -707,6 +700,55 @@
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/GrowStackView.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/NetworkSuggestionsSlider.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/DatePickerMenu.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLModal.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CountrySearch.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/QuestionScreen.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/InputAccessoryDocumentInput.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PlusInvestmentAccountMeter.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PlusInvestmentAccountCard.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/DocumentSignature.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PlusLargeQuestionChoiceText.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PlusPayments.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PlusLargeQuestionChoice.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PlusMemberIndicator.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PlusQuestionChoice.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/wealthHelpers.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/lib/countries.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusPoliticalNames.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusWealthWithdraw.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/WealthHelpModal.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusInvestmentSexQuestion.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusLoanComplete.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusSelectAccount.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusLoanESign.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusPlaidLinkContainer.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusSavings.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusAffiliationQuestion.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusConfirmation.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusInvestmentNetWorthQuestion.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusAgreement.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusStreaksExplainedModal.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusLoanOffer.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusInvestmentDurationQuestion.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusWealthWithdrawAmount.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusPoliticalQuestion.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusInvestmentAccount.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusBankInfo.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/NewVerifyToken.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusConsent.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusWealthWithdrawSummary.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusInvestmentExperienceQuestion.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusInvestmentRiskQuestion.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusWealthAddFundsAmount.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifyCountry.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/PlusPerksModal.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/flowManagerSagas.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/wealthSagas.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/flowManager.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/cmEnrollment.js" />
+        <option value="$USER_HOME$/var/moneylion-react-native/app/modules/plusModule.js" />
+        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/equifaxBreachCard.js.map" />
+        <option value="$USER_HOME$/var/mobileapi/src/lib/cards/equifaxBreachCard.js" />
       </list>
     </option>
   </component>
@@ -932,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -940,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
           <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,14 +1014,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopClient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shopClient.js" />
     <entry file="file://$PROJECT_DIR$/product9.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
@@ -1023,26 +1055,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/product1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        <state relative-caret-position="228">
+          <caret line="66" column="39" lean-forward="false" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/productStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="78" column="17" lean-forward="false" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        <state relative-caret-position="924">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product1.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="905">
-          <caret line="91" column="15" lean-forward="true" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
+        <state relative-caret-position="978">
+          <caret line="242" column="57" lean-forward="false" selection-start-line="242" selection-start-column="57" selection-end-line="242" selection-end-column="57" />
           <folding />
         </state>
       </provider>
