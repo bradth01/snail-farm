@@ -59,15 +59,17 @@
             position: fixed;
             top: 0px;
             right: 0px;
-            width: 150px;
-            height: 150px;
+            width: 175px;
+            height: 175px;
             object-fit: contain;
-            max-width: 80%;
         }
-        #cart {
+        #cartNumber {
             font-family: monospace;
-            font-size: 25px;
+            font-size: 22px;
             color: blue;
+            position: fixed;
+            top: 40px;
+            right: 90px;
         }
         .divider {
             height: 2vh;
@@ -214,9 +216,8 @@
     <a href="https://www.instagram.com/snail.farm/">instagram // </a>
     <a>2017</a>
 </div>
-<div id="cartFloat">
-    <img src="https://d8a8qkbr68bun.cloudfront.net/shopping_cart.png" />
-</div>
+<a id="cartFloat">
+</a>
 
 <script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
 
@@ -234,19 +235,24 @@
                 return result += item.quantity;
             }, 0);
 
-            var newImg = document.createElement("img");
-            newImg.src = "https://d8a8qkbr68bun.cloudfront.net/shopping_cart.png";
+            if (cartNumber > 0) {
+                var cartFloat = document.getElementById("cartFloat");
+                cartFloat.href = recentCart.checkoutUrl;
+                var newImg = document.createElement("img");
+                newImg.src = "https://d8a8qkbr68bun.cloudfront.net/shopping_cart.png";
+                cartFloat.appendChild(newImg);
 
-            // todo: set absolute position for number on top of image inside of div!!
-            var newA = document.createElement("a");
-            newA.id = "cart";
-            newA.href = recentCart.checkoutUrl;
+                var newA = document.createElement("a");
+                newA.id = "cartNumber";
 
-            const newContent = document.createTextNode(cartNumber.toString());
-            newA.appendChild(newContent);
+                const newContent = document.createTextNode(cartNumber.toString());
+                newA.appendChild(newContent);
 
-            const currentDiv = document.getElementById("cartFloat");
-            document.body.insertBefore(newA, currentDiv);
+                const currentDiv = document.getElementById("cartFloat");
+                document.body.insertBefore(newA, cartFloat);
+            } else {
+                return;
+            }
 
         })
         .catch(function () {
