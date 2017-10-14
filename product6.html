@@ -25,7 +25,7 @@
                 Published in 2017<br>
                 Edition of 40<br>
             </p>
-            <a id="buyContainer">
+            <a id="buyContainer" onclick="addToCart()">
                 <img id="buy" src="https://d8a8qkbr68bun.cloudfront.net/buyButton.jpg" />
             </a>
         </div>
@@ -43,25 +43,7 @@
 </div>
 
 <script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
-<script>
-    const shopClient = ShopifyBuy.buildClient({
-        accessToken: 'a7d7c34d7e531268037a004428ba7c93',
-        domain: 'snailfarm.myshopify.com',
-        appId: '6'
-    });
-
-    shopClient.fetchProduct('10379063241')
-        .then(function (product) {
-            const variant = product.variants[0];
-            const quantity = 1;
-            const checkoutURL = variant.checkoutUrl(quantity);
-            var button = document.getElementById('buyContainer');
-            button.href = checkoutURL;
-        })
-        .catch(function () {
-            console.log('Request failed');
-        });
-</script>
+<script src="productScript.js" productId="10379063241"></script>
 
 </body>
 
