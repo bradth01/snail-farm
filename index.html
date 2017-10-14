@@ -62,6 +62,7 @@
             width: 175px;
             height: 175px;
             object-fit: contain;
+            cursor: pointer;
         }
         #cartNumber {
             font-family: monospace;
@@ -70,6 +71,17 @@
             position: fixed;
             top: 40px;
             right: 90px;
+        }
+        #emptyCartFloat {
+            font-family: monospace;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            font-size: 22px;
+            color: red;
+            position: fixed;
+            top: 150px;
+            right: 23px;
+            cursor: pointer;
         }
         .divider {
             height: 2vh;
@@ -218,6 +230,7 @@
 </div>
 <a id="cartFloat">
 </a>
+<a id="emptyCartFloat" onclick="emptyCart()"></a>
 
 <script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
 
@@ -228,6 +241,17 @@
         domain: 'snailfarm.myshopify.com',
         appId: '6'
     });
+
+    function emptyCart() {
+        shopClient.fetchRecentCart()
+            .then(function(recentCart) {
+                recentCart.clearLineItems();
+                location.reload();
+            })
+            .catch(function() {
+                console.log('empty cart failed');
+            });
+    }
 
     shopClient.fetchRecentCart()
         .then(function(recentCart) {
@@ -248,7 +272,9 @@
                 const newContent = document.createTextNode(cartNumber.toString());
                 newA.appendChild(newContent);
 
-                const currentDiv = document.getElementById("cartFloat");
+                const emptyCartText = document.createTextNode("EMPTY CART");
+                document.getElementById("emptyCartFloat").appendChild(emptyCartText);
+
                 document.body.insertBefore(newA, cartFloat);
             } else {
                 return;
