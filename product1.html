@@ -47,48 +47,7 @@
     </div>
 
     <script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
-    <script>
-
-        const shopClient = ShopifyBuy.buildClient({
-            accessToken: 'a7d7c34d7e531268037a004428ba7c93',
-            domain: 'snailfarm.myshopify.com',
-            appId: '6'
-        });
-
-
-        var cart;
-        var product;
-
-        shopClient.fetchRecentCart()
-            .then(function(recentCart) {
-                cart = recentCart;
-            })
-            .catch(function () {
-                console.log('cart fetch failed');
-            });
-
-        shopClient.fetchProduct('10378973769')
-            .then(function (fetchedProduct) {
-                const variant = fetchedProduct.variants[0];
-                const quantity = 1;
-                product = { variant: variant, quantity: quantity };
-            })
-            .catch(function () {
-                console.log('product fetch failed');
-            });
-
-
-        function addToCart() {
-            cart.createLineItemsFromVariants(product)
-                .then(function(cart) {
-                    window.history.back();
-                })
-                .catch(function() {
-                    console.log('onclick failed');
-                });
-        }
-
-    </script>
+    <script src="productScript.js" productId="10378973769"></script>
 
 </body>
 
