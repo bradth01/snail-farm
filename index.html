@@ -57,10 +57,10 @@
         }
         #cartFloat {
             position: fixed;
-            top: 15px;
-            right: 15px;
-            width: 50px;
-            height: 50px;
+            top: 0px;
+            right: 0px;
+            width: 150px;
+            height: 150px;
             object-fit: contain;
             max-width: 80%;
         }
@@ -215,6 +215,7 @@
     <a>2017</a>
 </div>
 <div id="cartFloat">
+    <img src="https://d8a8qkbr68bun.cloudfront.net/shopping_cart.png" />
 </div>
 
 <script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
@@ -233,14 +234,16 @@
                 return result += item.quantity;
             }, 0);
 
-            console.log('cartNumber', cartNumber);
+            var newImg = document.createElement("img");
+            newImg.src = "https://d8a8qkbr68bun.cloudfront.net/shopping_cart.png";
+
+            // todo: set absolute position for number on top of image inside of div!!
             var newA = document.createElement("a");
             newA.id = "cart";
             newA.href = recentCart.checkoutUrl;
-            console.log(newA.href);
+
             const newContent = document.createTextNode(cartNumber.toString());
             newA.appendChild(newContent);
-
 
             const currentDiv = document.getElementById("cartFloat");
             document.body.insertBefore(newA, currentDiv);
