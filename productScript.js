@@ -31,7 +31,7 @@ shopClient.fetchProduct(productId)
 function addToCart() {
     cart.createLineItemsFromVariants(product)
         .then(function(cart) {
-            window.history.back();
+            window.location.replace("index.html");
         })
         .catch(function() {
             console.log('onclick failed');

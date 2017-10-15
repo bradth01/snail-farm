@@ -1,6 +1,6 @@
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" http-equiv="pragma" content="no-cache">
     <title>s n a i l f a r m</title>
     <style>
         body {
@@ -148,7 +148,12 @@
             }
         }
     </style>
+
+    <script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
+    <script src="cartScript.js" defer></script>
+
 </head>
+
 <body>
 <div id="leftColumn">
     <img id="logo" src="https://d8a8qkbr68bun.cloudfront.net/sf_logo_web_transparrant.png" />
@@ -244,61 +249,6 @@
 </a>
 <a id="emptyCartFloat" onclick="emptyCart()"></a>
 
-<script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
-
-<script>
-
-    const shopClient = ShopifyBuy.buildClient({
-        accessToken: 'a7d7c34d7e531268037a004428ba7c93',
-        domain: 'snailfarm.myshopify.com',
-        appId: '6'
-    });
-
-    function emptyCart() {
-        shopClient.fetchRecentCart()
-            .then(function(recentCart) {
-                recentCart.clearLineItems();
-                location.reload();
-            })
-            .catch(function() {
-                console.log('empty cart failed');
-            });
-    }
-
-    shopClient.fetchRecentCart()
-        .then(function(recentCart) {
-            const cartNumber = recentCart.attrs.line_items.reduce(function(result, item) {
-                return result += item.quantity;
-            }, 0);
-
-            if (cartNumber > 0) {
-                var cartFloat = document.getElementById("cartFloat");
-                cartFloat.href = recentCart.checkoutUrl;
-                var newImg = document.createElement("img");
-                newImg.src = "https://d8a8qkbr68bun.cloudfront.net/shopping_cart.png";
-                cartFloat.appendChild(newImg);
-
-                var newA = document.createElement("a");
-                newA.id = "cartNumber";
-
-                const newContent = document.createTextNode(cartNumber.toString());
-                newA.appendChild(newContent);
-
-                const emptyCartText = document.createTextNode("EMPTY CART");
-                document.getElementById("emptyCartFloat").appendChild(emptyCartText);
-
-                document.body.insertBefore(newA, cartFloat);
-            } else {
-                return;
-            }
-
-        })
-        .catch(function () {
-            console.log('cart fetch failed');
-        });
-
-
-</script>
 
 </body>
 </html>
