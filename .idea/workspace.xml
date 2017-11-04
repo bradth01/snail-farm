@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f4b70d-883a-4e41-92f1-3a91d0f5b835" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productScript.js" afterPath="$PROJECT_DIR$/productScript.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="90" lean-forward="false" selection-start-line="2" selection-start-column="90" selection-end-line="2" selection-end-column="90" />
+            <state relative-caret-position="2781">
+              <caret line="234" column="6" lean-forward="true" selection-start-line="234" selection-start-column="6" selection-end-line="234" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cartScript.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cartScript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cartScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="38" column="76" lean-forward="true" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+            <state relative-caret-position="576">
+              <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -42,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/productScript.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+              <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -51,7 +49,7 @@
       <file leaf-file-name="product14.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product14.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="558">
               <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
@@ -61,7 +59,7 @@
       <file leaf-file-name="productStyles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/productStyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
+            <state relative-caret-position="882">
               <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
               <folding />
             </state>
@@ -91,7 +89,7 @@
       <file leaf-file-name="product13.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product13.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
+            <state relative-caret-position="846">
               <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
@@ -101,7 +99,7 @@
       <file leaf-file-name="product11.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
+            <state relative-caret-position="882">
               <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
@@ -133,6 +131,7 @@
       <find>cartImg</find>
       <find>cart</find>
       <find>emptyCart</find>
+      <find>lower</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,9 +163,9 @@
         <option value="$PROJECT_DIR$/product13.html" />
         <option value="$PROJECT_DIR$/product14.html" />
         <option value="$PROJECT_DIR$/productStyles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/cartScript.js" />
         <option value="$PROJECT_DIR$/productScript.js" />
+        <option value="$PROJECT_DIR$/cartScript.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -399,7 +398,6 @@
         <option value="$USER_HOME$/var/moneylion-react-native/app/styles/layoutStyles.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/ForgotPasswordModal.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/BoostSlider.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/WithdrawalBankList.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/InviteThanksPopup.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/WelcomeBankVerification.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CreditCardAllReviews.js" />
@@ -434,7 +432,6 @@
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/TransitionView.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanList.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/BigCard.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/CodeShare.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/__tests__/lib/dateUtil.spec.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/authSagas.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/modules/variables.js" />
@@ -461,7 +458,6 @@
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/BankVerification.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/modules/network.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Root.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/test/loanapp.spec.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/lib/strings.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLTextInput2.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Menu.js" />
@@ -568,7 +564,6 @@
         <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/loanAppSagas/helpers.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/QuoteCard.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppESign.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/OnboardingInvited.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppMLProSubscription.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/modules/instantOfferModule.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppDenied.js" />
@@ -660,7 +655,6 @@
         <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/touchIdSagas.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLGrammar.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/lib/cardGrammarUtil.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/GetPoints.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/VerifyIncomeType.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppBankInfo.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/lib/helpshift.js" />
@@ -668,7 +662,6 @@
         <option value="$USER_HOME$/var/moneylion-react-native/app/styles/modalStyles.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/actions/onboardingActions.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/lib/states.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/MinimalNavbar.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/lib/banks.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/__tests__/lib/emptyRequestCards.spec.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/CheckMarkButtons.js" />
@@ -681,9 +674,7 @@
         <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/propertySagas.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/financesSagas.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppPaymentSchedule.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/loanAppSagas/loanAppInfo.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/userSagas.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/NumberCircle.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/CreditMonitoringDashboard.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppSuccess.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/modules/actions.js" />
@@ -704,7 +695,6 @@
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Alerts.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/ScanPreview.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/ProfileEducationMajor.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/PaymentIcon.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/sagas/analyticsSagas.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/Signup.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/SearchableList.js" />
@@ -718,9 +708,6 @@
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/ListViewHeader.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/Router.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/containers/LoanAppConfirmWithdrawal.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/components/GrowStackView.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/NetworkSuggestionsSlider.js" />
-        <option value="$USER_HOME$/var/moneylion-react-native/app/containers/DatePickerMenu.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/MLModal.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/CountrySearch.js" />
         <option value="$USER_HOME$/var/moneylion-react-native/app/components/QuestionScreen.js" />
@@ -788,13 +775,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/cartScript.js</url>
-          <line>30</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -973,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="866">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,7 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,7 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,45 +1016,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product10.html">
+    <entry file="file://$PROJECT_DIR$/product14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="558">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/productStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
+        <state relative-caret-position="882">
           <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
           <folding />
         </state>
@@ -1097,34 +1051,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/product13.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="90" lean-forward="false" selection-start-line="2" selection-start-column="90" selection-end-line="2" selection-end-column="90" />
+        <state relative-caret-position="846">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product14.html">
+    <entry file="file://$PROJECT_DIR$/product11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="882">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productScript.js">
+    <entry file="file://$PROJECT_DIR$/product12.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="704">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cartScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="38" column="76" lean-forward="true" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+        <state relative-caret-position="576">
+          <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2781">
+          <caret line="234" column="6" lean-forward="true" selection-start-line="234" selection-start-column="6" selection-end-line="234" selection-end-column="6" />
           <folding />
         </state>
       </provider>
