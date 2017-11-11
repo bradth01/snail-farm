@@ -16,7 +16,6 @@ function emptyCart() {
 }
 
  function fetchCart() {
-    console.log("HERE");
     shopClient.fetchRecentCart()
         .then(function(recentCart) {
             const cartNumber = recentCart.attrs.line_items.reduce(function(result, item) {

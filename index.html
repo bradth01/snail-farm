@@ -20,15 +20,16 @@
             z-index: -1;
         }
         #leftColumn {
-            width: 18vw;
+            width: 15vw;
             margin-left: 10px;
             position: relative;
         }
         #rightColumn {
-            width: 18vw;
+            width: 15vw;
             position: relative;
         }
         #middleColumn {
+            margin-top: 10px;
             width: 62vw;
         }
         #logo {
@@ -121,19 +122,19 @@
         @media (max-width: 500px) {
             .low {
                 position: absolute;
-                top: 25%;
+                top: 27%;
             }
             .lower {
                 position: absolute;
-                top: 59%;
+                top: 61%;
             }
             #cartNumber {
                 font-family: monospace;
                 font-size: 17px;
                 color: blue;
                 position: fixed;
-                top: 15px;
-                right: 41px;
+                top: 19px;
+                right: 44px;
             }
             #emptyCartFloat {
                 font-family: monospace;
@@ -143,14 +144,15 @@
                 color: red;
                 position: fixed;
                 top: 63px;
+                margin-top: 10px;
                 right: 10px;
                 cursor: pointer;
             }
         }
     </style>
 
-    <script src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
-    <script src="cartScript.js" defer></script>
+    <script async src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
+    <script async src="cartScript.js" defer></script>
 
 </head>
 

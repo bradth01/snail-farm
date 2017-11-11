@@ -46,6 +46,10 @@ a:visited {
     width: 220px;
     cursor: pointer;
 }
+#nomore {
+    height: 220px;
+    width: 220px;
+}
 #spacer {
     width: 15vw;
 }
